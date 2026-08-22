@@ -1,51 +1,75 @@
-<div align="center">
+<h1 align="center">Savateykin Yaroslav</h1>
 
-# Savateykin Yaroslav
-
-**Chemistry · Scientific Computing · Developer Tools**
-
-Building scientific software for chemistry and small tools that make technical work less painful.
-
-</div>
+<p align="center">
+  <strong>Chemistry · Scientific Computing · Developer Tools</strong><br>
+  <sub>Scientific software for chemistry, numerical methods and everyday developer tooling.</sub>
+</p>
 
 <br>
 
-## Featured projects
+<h2>Featured projects</h2>
 
-<a href="https://kinetics-app.ru"><img src="./assets/kinetics-card.svg" width="100%" alt="Kinetics App" /></a>
-
-<br>
-
-<a href="https://equilibrium-app.ru"><img src="./assets/equilibrium-card.svg" width="100%" alt="Equilibrium App" /></a>
-
-<br>
-
-<a href="https://github.com/yaroslavsavateykin/reminder-bot"><img src="./assets/reminder-card.svg" width="100%" alt="Reminder Bot" /></a>
-
-<br>
-
-## Tools
-
-<table><tr><td width="50%" valign="top">
-
-### `unc_tools`
-Utilities for uncertainty-aware regression, symbolic helpers, and scientific plotting.
-
-[**Repository ↗**](https://github.com/yaroslavsavateykin/unc_tools)
-
-</td><td width="50%" valign="top">
-
-### `omd2tex`
-Markdown → LaTeX converter built around Obsidian technical-writing workflows.
-
-[**Repository ↗**](https://github.com/yaroslavsavateykin/omd2tex)
-
-</td></tr></table>
+<table width="100%">
+  <tr>
+    <td width="72%" valign="middle">
+      <h3>KineticsApp</h3>
+      <sub>Chemical kinetics, reaction mechanisms and concentration profiles.</sub>
+    </td>
+    <td width="28%" align="right" valign="middle">
+      <a href="https://kinetics-app.ru"><code>kinetics-app.ru ↗</code></a>
+    </td>
+  </tr>
+</table>
 
 <br>
 
-<div align="center">
+<table width="100%">
+  <tr>
+    <td width="72%" valign="middle">
+      <h3>EquilibriumApp</h3>
+      <sub>Chemical equilibria, distribution curves and titration modelling.</sub>
+    </td>
+    <td width="28%" align="right" valign="middle">
+      <a href="https://equilibrium-app.ru"><code>equilibrium-app.ru ↗</code></a>
+    </td>
+  </tr>
+</table>
 
-`Python` · `Rust` · `TypeScript` · `WebAssembly` · `PostgreSQL` · `Docker`
+<br>
 
-</div>
+<table width="100%">
+  <tr>
+    <td width="72%" valign="middle">
+      <h3>Reminder Bot</h3>
+      <sub>Telegram reminders, scheduling and lightweight personal automation.</sub>
+    </td>
+    <td width="28%" align="right" valign="middle">
+      <a href="https://github.com/yaroslavsavateykin/reminder-bot"><code>GitHub ↗</code></a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<h2>Tools</h2>
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><code>unc_tools</code></h3>
+      <p>Uncertainty-aware regression, symbolic helpers and scientific plotting.</p>
+      <a href="https://github.com/yaroslavsavateykin/unc_tools">Repository ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><code>omd2tex</code></h3>
+      <p>Markdown → LaTeX conversion for Obsidian-based technical writing.</p>
+      <a href="https://github.com/yaroslavsavateykin/omd2tex">Repository ↗</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<p align="center">
+  <code>Python</code> · <code>Rust</code> · <code>TypeScript</code> · <code>WebAssembly</code> · <code>PostgreSQL</code> · <code>Docker</code>
+</p>
