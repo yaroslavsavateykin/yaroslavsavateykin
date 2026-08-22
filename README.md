@@ -9,42 +9,42 @@
 
 <h2>Featured projects</h2>
 
-<table width="100%">
+<table width="100%" cellpadding="14">
   <tr>
     <td width="72%" valign="middle">
-      <h3>KineticsApp</h3>
+      <strong>KineticsApp</strong><br>
       <sub>Chemical kinetics, reaction mechanisms and concentration profiles.</sub>
     </td>
     <td width="28%" align="right" valign="middle">
-      <a href="https://kinetics-app.ru"><code>kinetics-app.ru ↗</code></a>
+      <a href="https://kinetics-app.ru"><kbd>kinetics-app.ru ↗</kbd></a>
     </td>
   </tr>
 </table>
 
 <br>
 
-<table width="100%">
+<table width="100%" cellpadding="14">
   <tr>
     <td width="72%" valign="middle">
-      <h3>EquilibriumApp</h3>
+      <strong>EquilibriumApp</strong><br>
       <sub>Chemical equilibria, distribution curves and titration modelling.</sub>
     </td>
     <td width="28%" align="right" valign="middle">
-      <a href="https://equilibrium-app.ru"><code>equilibrium-app.ru ↗</code></a>
+      <a href="https://equilibrium-app.ru"><kbd>equilibrium-app.ru ↗</kbd></a>
     </td>
   </tr>
 </table>
 
 <br>
 
-<table width="100%">
+<table width="100%" cellpadding="14">
   <tr>
     <td width="72%" valign="middle">
-      <h3>Reminder Bot</h3>
+      <strong>Reminder Bot</strong><br>
       <sub>Telegram reminders, scheduling and lightweight personal automation.</sub>
     </td>
     <td width="28%" align="right" valign="middle">
-      <a href="https://github.com/yaroslavsavateykin/reminder-bot"><code>GitHub ↗</code></a>
+      <a href="https://github.com/yaroslavsavateykin/reminder-bot"><kbd>GitHub ↗</kbd></a>
     </td>
   </tr>
 </table>
@@ -53,16 +53,16 @@
 
 <h2>Tools</h2>
 
-<table width="100%">
+<table width="100%" cellpadding="14">
   <tr>
     <td width="50%" valign="top">
-      <h3><code>unc_tools</code></h3>
-      <p>Uncertainty-aware regression, symbolic helpers and scientific plotting.</p>
+      <strong><code>unc_tools</code></strong><br><br>
+      <sub>Uncertainty-aware regression, symbolic helpers and scientific plotting.</sub><br><br>
       <a href="https://github.com/yaroslavsavateykin/unc_tools">Repository ↗</a>
     </td>
     <td width="50%" valign="top">
-      <h3><code>omd2tex</code></h3>
-      <p>Markdown → LaTeX conversion for Obsidian-based technical writing.</p>
+      <strong><code>omd2tex</code></strong><br><br>
+      <sub>Markdown → LaTeX conversion for Obsidian-based technical writing.</sub><br><br>
       <a href="https://github.com/yaroslavsavateykin/omd2tex">Repository ↗</a>
     </td>
   </tr>
