@@ -2,9 +2,9 @@
 
 # Savateykin Yaroslav
 
-### Chemistry × Scientific Computing × Developer Tools
+**Chemistry · Scientific Computing · Developer Tools**
 
-I build scientific software, computational chemistry tools, and small utilities that make technical work simpler.
+Building scientific software for chemistry and small tools that make technical work less painful.
 
 </div>
 
@@ -12,107 +12,40 @@ I build scientific software, computational chemistry tools, and small utilities 
 
 ## Featured projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<a href="https://kinetics-app.ru"><img src="./assets/kinetics-card.svg" width="100%" alt="Kinetics App" /></a>
 
-### ⚗️ Kinetics App
+<br>
 
-Interactive application for studying **chemical kinetics**: reaction mechanisms, concentration profiles, model exploration, and data export.
+<a href="https://equilibrium-app.ru"><img src="./assets/equilibrium-card.svg" width="100%" alt="Equilibrium App" /></a>
 
-**Stack:** Rust · TypeScript · WebAssembly
+<br>
 
-<p>
-  <a href="https://kinetics-app.ru"><b>Open application ↗</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/yaroslavsavateykin/kinetics_app">GitHub</a>
-</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-### ⚖️ Equilibrium App
-
-Interactive toolkit for **chemical equilibria**: distribution curves, acid–base systems, titration modelling, and equilibrium calculations.
-
-**Stack:** Rust / Go · TypeScript · WebAssembly
-
-<p>
-  <a href="https://equilibrium-app.ru"><b>Open application ↗</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/yaroslavsavateykin/equilibrium_app">GitHub</a>
-</p>
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🤖 Reminder Bot
-
-Telegram bot for reminders and lightweight personal automation.
-
-**Focus:** scheduling · reliability · containerized deployment
-
-<p>
-  <a href="https://github.com/yaroslavsavateykin/reminder-bot"><b>View project ↗</b></a>
-</p>
-
-</td>
-</tr>
-</table>
+<a href="https://github.com/yaroslavsavateykin/reminder-bot"><img src="./assets/reminder-card.svg" width="100%" alt="Reminder Bot" /></a>
 
 <br>
 
 ## Tools
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<table><tr><td width="50%" valign="top">
 
-### 📈 `unc_tools`
+### `unc_tools`
+Utilities for uncertainty-aware regression, symbolic helpers, and scientific plotting.
 
-Utilities for uncertainty-aware regression, symbolic helpers, and scientific plotting workflows.
+[**Repository ↗**](https://github.com/yaroslavsavateykin/unc_tools)
 
-<p>
-  <a href="https://github.com/yaroslavsavateykin/unc_tools"><b>Repository ↗</b></a>
-</p>
+</td><td width="50%" valign="top">
 
-</td>
+### `omd2tex`
+Markdown → LaTeX converter built around Obsidian technical-writing workflows.
 
-<td width="50%" valign="top">
+[**Repository ↗**](https://github.com/yaroslavsavateykin/omd2tex)
 
-### 📝 `omd2tex`
-
-Markdown → LaTeX converter designed around Obsidian-based technical writing workflows.
-
-<p>
-  <a href="https://github.com/yaroslavsavateykin/omd2tex"><b>Repository ↗</b></a>
-</p>
-
-</td>
-</tr>
-</table>
+</td></tr></table>
 
 <br>
 
-## Tech I work with
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-111317?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-111317?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-111317?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebAssembly-111317?style=for-the-badge&logo=webassembly&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-111317?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-111317?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
-
 <div align="center">
 
-### Current focus
-
-Scientific web applications · computational chemistry · numerical methods · developer tooling
+`Python` · `Rust` · `TypeScript` · `WebAssembly` · `PostgreSQL` · `Docker`
 
 </div>
