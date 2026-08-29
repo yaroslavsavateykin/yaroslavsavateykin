@@ -10,7 +10,7 @@
   &nbsp;
   <a href="https://equilibrium-app.ru"><img height="30" alt="equilibrium-app.ru" src="https://img.shields.io/badge/equilibrium--app.ru-1F222E?style=for-the-badge" /></a>
   &nbsp;
-  <img height="30" alt="coming soon" src="https://img.shields.io/badge/coming_soon-1F222E?style=for-the-badge" />
+  <a href="t.me/transcribe_tasks_bot"><img height="30" alt="TranscribeBot" src="https://img.shields.io/badge/coming_soon-1F222E?style=for-the-badge" /></a>
 </p>
 
 <h3 align="center">tools</h3>
