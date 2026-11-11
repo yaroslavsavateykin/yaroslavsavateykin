@@ -1,45 +1,68 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Yaroslav Savateykin — chemistry, scientific computing, and developer tools." />
-    <title>Yaroslav Savateykin</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ярослав Саватейкин | Физическая химия и научные вычисления</title>
+    <meta name="description" content="Ярослав Саватейкин, студент химического факультета МГУ. Физическая химия, молекулярное моделирование и научное программное обеспечение.">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Ярослав Саватейкин | Физическая химия и научные вычисления">
+    <meta property="og:description" content="Ярослав Саватейкин, студент химического факультета МГУ. Физическая химия, молекулярное моделирование и научное программное обеспечение.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://savateykin.ru/">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:locale:alternate" content="en_US">
+    <link rel="canonical" href="https://savateykin.ru/">
+    <link rel="alternate" hreflang="ru" href="https://savateykin.ru/">
+    <link rel="alternate" hreflang="en" href="https://savateykin.ru/en/">
+    <link rel="alternate" hreflang="x-default" href="https://savateykin.ru/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
   </head>
-  <body>
-    <main class="page" aria-labelledby="page-title">
-      <header class="intro" id="top">
-        <p class="path">~/yaroslav-savateykin</p>
-        <h1 id="page-title">Yaroslav Savateykin</h1>
-        <p class="role">Chemistry · scientific computing · developer tools</p>
-        <p>I build scientific software for chemistry and small tools that make technical work simpler.</p>
-        <p class="links"><a href="https://github.com/yaroslavsavateykin" target="_blank" rel="noreferrer">GitHub</a> <span aria-hidden="true">·</span> <a href="#projects">Projects</a></p>
+  <body id="top">
+    <a class="skip" href="#main">К содержимому</a>
+    <div class="page">
+      <header class="header">
+        <a class="wordmark" href="/" aria-label="Ярослав Саватейкин">ys</a>
+        <nav aria-label="Основная навигация">
+          <a href="#about">Обо мне</a>
+          <a href="#projects">Проекты</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+        <a class="language-switch" href="/en/" lang="en" hreflang="en" aria-label="Switch to English">EN</a>
       </header>
-
-      <section id="projects" aria-labelledby="projects-title">
-        <h2 id="projects-title">Projects</h2>
-        <div class="projects" id="tools-grid" aria-live="polite"><p class="loading">Loading projects…</p></div>
-      </section>
-
-      <section aria-labelledby="tools-title">
-        <h2 id="tools-title">Tools I use</h2>
-        <ul class="stack">
-          <li>Python</li>
-          <li>Rust</li>
-          <li>PostgreSQL</li>
-          <li>WebAssembly</li>
-          <li>Docker</li>
-        </ul>
-      </section>
-
-      <footer>
-        <p>Made for useful science and calm systems.</p>
-      </footer>
-    </main>
-    <script src="script.js"></script>
+      <main id="main">
+        <section class="hero" id="about" aria-labelledby="name">
+          <h1 id="name">Ярослав Саватейкин</h1>
+          <p class="lead hero-intro">Учусь на химическом факультете МГУ. Занимаюсь физической химией и молекулярным моделированием, пишу программы для научных расчётов.</p>
+        </section>
+        <section class="section" id="projects" aria-labelledby="projects-title">
+          <div class="section-title"><h2 id="projects-title">Проекты</h2></div>
+          <ul class="project-list">
+          <li class="project">
+            <h3><a class="project-heading" href="https://kinetics-app.ru" target="_blank" rel="noopener noreferrer">KineticsApp<span aria-hidden="true">↗</span></a></h3>
+            <p>Приложение для расчёта химической кинетики. Можно задать механизм реакции и посмотреть, как меняются концентрации со временем.</p>
+            <small class="tag">Rust · WebAssembly</small>
+          </li>
+          <li class="project">
+            <h3><a class="project-heading" href="https://github.com/yaroslavsavateykin/unc_tools" target="_blank" rel="noopener noreferrer">unc_tools<span aria-hidden="true">↗</span></a></h3>
+            <p>Библиотека на Python для обработки данных с погрешностями: подбор параметров модели, их неопределённости и графики.</p>
+            <small class="tag">Python</small>
+          </li>
+          <li class="project">
+            <h3><a class="project-heading" href="https://github.com/yaroslavsavateykin/leafview" target="_blank" rel="noopener noreferrer">Leafview<span aria-hidden="true">↗</span></a></h3>
+            <p>Терминальное приложение для просмотра PDF и работы с Typst. В сборке с поддержкой Typst показывает предпросмотр документа и обновляет его при сохранении исходника.</p>
+            <small class="tag">Rust</small>
+          </li>
+          </ul>
+        </section>
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+          <div class="section-title"><h2 id="contact-title">Контакты</h2></div>
+          <p><a href="https://github.com/yaroslavsavateykin" target="_blank" rel="noopener noreferrer">github.com/yaroslavsavateykin</a></p>
+        </section>
+      </main>
+      <footer><span>© Ярослав Саватейкин</span><a href="#top">Наверх ↑</a></footer>
+    </div>
   </body>
 </html>
